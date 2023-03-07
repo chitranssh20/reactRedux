@@ -1,0 +1,18 @@
+button:hover{
+  background-color: ghostwhite;
+}
+button:active{
+  background-color: beige;
+}
+.quantity{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.quantitySymbol{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+}
